@@ -1,4 +1,4 @@
-In this lesson we'll define an object, which is defined a collection of key-value pairs.
+In this lesson we'll define an object, which is defined as a collection of key-value pairs.
 
 ```ruby
 {
