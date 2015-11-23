@@ -21,7 +21,7 @@ Note that to refer to the array element under iteration we use the symbol **$**.
 You can also name the lambda parameters like this:
 
 ```ruby
-users: ["jhon", "petter", "mat"] map upper ((name, index) -> upper name)
+users: ["jhon", "petter", "mat"] map ((name, index) -> upper name)
 ```
 
 >Write a script that outputs an array of objects like the following, with `id` values from 1 to 10:
