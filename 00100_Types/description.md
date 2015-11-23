@@ -12,6 +12,7 @@ The available types are:
 * object<br/>
 
 An object is a collection of key-value pairs and it's defined like this:
+
 ```ruby
 {
   foo: "bar"
