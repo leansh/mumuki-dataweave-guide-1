@@ -19,6 +19,7 @@ An object is a collection of key-value pairs and it's defined like this:
 }
 ```
 
-Our object has a key `foo` with value `bar`
+Our object has a key `foo` with value `bar`.<br/>
+Note that you can omit the quotes in the keys.
 
 >Now try to define an object with a key `name` and value `Mariano`
