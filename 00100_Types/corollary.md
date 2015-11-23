@@ -2,7 +2,7 @@ As we'll see later, all the elements present in other formats (XML, JSON, CSV, e
 
 For example:
 
-```ruby
+```xml
 <names>
   <name>Mariano</name>
 </names>
