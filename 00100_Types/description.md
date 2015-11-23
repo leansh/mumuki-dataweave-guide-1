@@ -1,6 +1,7 @@
 In this lesson we'll learn about DataWeave types.
 
 The available types are:
+
 * string => `"foo"` or `'foo'`
 * number => `123`
 * date => `|2003-10-01|`
