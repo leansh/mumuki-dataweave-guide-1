@@ -1,1 +1,3 @@
-"Martinez"
+{
+  "area-name": "Martinez"
+}

@@ -29,4 +29,4 @@ Let's call the previous json input `payload`. To retrieve the `street name`("Ita
 ```ruby
 payload.address.street.name
 ```
->Now try to get the `area name`("Martinez") using single-value selectors
+>Now try to create an object with a key `area-name` and fill the value with the `area name`("Martinez") using single-value selectors.

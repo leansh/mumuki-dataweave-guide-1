@@ -6,6 +6,6 @@
       "mimeType" : "application/json"
     }
   ],
-  "outputType" : "application/java",
+  "outputType" : "application/json",
   "content" : ""
 }
