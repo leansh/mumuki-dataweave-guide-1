@@ -8,6 +8,7 @@ The available selectors are:
 
 In this lesson we'll see the **single-value** selector.<br/>
 This selector returns the **first value** whose **key matches the expression**
+
 ```json
 {
   "name": "Nial",
@@ -24,6 +25,7 @@ This selector returns the **first value** whose **key matches the expression**
 }
 ```
 Let's call the previous json input `payload`. To retrieve the `street name`("Italia"), we'd have to do:
+
 ```ruby
 payload.address.street.name
 ```
