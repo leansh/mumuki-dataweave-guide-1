@@ -21,6 +21,7 @@ users: ["jhon", "petter", "mat"] filter ((name, index) -> name contains "t")
 ```
 
 >Write a script to filter an array like the following one so that only the objects with `id` between 8 and 18 remain:<br/>
+You'll have to use the `and` (it's lowercase) operator .<br/>
 (To refer to this input use the variable named `payload`)
 
 ```json
