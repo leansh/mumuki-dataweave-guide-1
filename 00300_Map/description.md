@@ -1,9 +1,9 @@
-From the docs:
+In this lesson we'll learn about one of the most important operators in the language.<br/>
+From the [docs](https://docs.mulesoft.com/mule-user-guide/v/3.7/dataweave-reference-documentation#operators):
 >The map operation returns an array that is the result of applying a transformation function (lambda) to each of the elements in an array.
 
-For more info [read this](https://docs.mulesoft.com/mule-user-guide/v/3.7/dataweave-reference-documentation#operators)
-
-So in other words: it receives an `array` and returns a `transformed array` (with the same amount of elements)
+So in other words: it receives an `array` and returns a `transformed array` (with the same amount of elements). <br/>
+You use the map operation to do what you'd normally do with a loop in an imperative language.
 
 For example:
 

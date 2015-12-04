@@ -1,5 +1,5 @@
-The available string operations are:
-(for more info [read this](https://docs.mulesoft.com/mule-user-guide/v/3.7/dataweave-reference-documentation#string))
+This lesson we'll see how to manipulate strings in DataWeave.<br/>
+The available string operations are: <br/>
 
 * range selector => `"A very long string"[0..8]` => `"A very lo"`
 * index selector => `"A very long string"[10]` => `"g"`
@@ -18,6 +18,8 @@ The available string operations are:
 * lower =>`lower "ABC"` => `"abc"`
 * startsWith => `"Mariano" startsWith "Mar"` => `true`
 * endsWith => `"Emiliano" endsWith "no"` => `true`
+
+(for more info [read this](https://docs.mulesoft.com/mule-user-guide/v/3.7/dataweave-reference-documentation#string))
 
 >Given an input array of words, write a script that outputs an array of strings with the words that have 5 or more letters.<br/>
 Use the variable `payload` to reference the given input.
