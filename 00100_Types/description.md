@@ -9,6 +9,7 @@ The available types are:
 * localdatetime =>`|2005-06-02T15:10:16|`
 * array => `["a", "b", "c"]`
 * range => `[1..3]` This generates the array `[1, 2, 3]`
+* regex => `/^Mariano.*/`
 * object<br/>
 
 An object is a collection of key-value pairs and it's defined like this:
