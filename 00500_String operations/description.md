@@ -1,4 +1,5 @@
-The available string operations are: (for more info [read this](https://docs.mulesoft.com/mule-user-guide/v/3.7/dataweave-reference-documentation#string))
+The available string operations are:
+(for more info [read this](https://docs.mulesoft.com/mule-user-guide/v/3.7/dataweave-reference-documentation#string))
 
 * range selector => `"A very long string"[0..8]` => `"A very lo"`
 * index selector => `"A very long string"[10]` => `"g"`

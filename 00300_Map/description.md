@@ -1,5 +1,7 @@
-From the [docs](https://docs.mulesoft.com/mule-user-guide/v/3.7/dataweave-reference-documentation#operators):
+From the docs:
 >The map operation returns an array that is the result of applying a transformation function (lambda) to each of the elements in an array.
+
+For more info [read this](https://docs.mulesoft.com/mule-user-guide/v/3.7/dataweave-reference-documentation#operators)
 
 So in other words: it receives an `array` and returns a `transformed array` (with the same amount of elements)
 
