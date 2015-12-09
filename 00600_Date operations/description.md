@@ -2,6 +2,8 @@ In this lesson we'll see some examples of how to parse and format dates in DataW
 Dates in DataWeave follow the [ISO-8601](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) standard and are defined between '|' characters.
 
 Read about the dates [here](https://docs.mulesoft.com/mule-user-guide/v/3.7/dataweave-reference-documentation#dates).
+<br/>
+For more examples go to [this page](http://userguide.icu-project.org/formatparse/datetime).
 
 * date => `|2003-10-01|`
 * time => `|23:59:56|`
