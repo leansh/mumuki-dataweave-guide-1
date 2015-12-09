@@ -5,6 +5,7 @@ The available types are:
 * string => `"foo"` or `'foo'`
 * number => `123`
 * date => `|2003-10-01|`
+* time => `|23:59:56|`
 * datetime => `|2005-06-02T15:10:16Z|`
 * localdatetime =>`|2005-06-02T15:10:16|`
 * array => `["a", "b", "c"]`

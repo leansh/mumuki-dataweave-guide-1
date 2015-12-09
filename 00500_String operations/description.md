@@ -1,4 +1,4 @@
-This lesson we'll see how to manipulate strings in DataWeave.<br/>
+In this lesson we'll see how to manipulate strings in DataWeave.<br/>
 The available string operations are: <br/>
 
 * range selector => `"A very long string"[0..8]` => `"A very lo"`
@@ -10,8 +10,8 @@ The available string operations are: <br/>
 * find => `"aabccde" find /(a).(b)(c.)d/` => `[[0, 0, 2, 3]]`
 * scan => `"EmiEmi" scan /(mi)/` => `[["mi","mi"],["mi","mi"]]`
 * splitBy: <br/>
-`"A very long string" splitBy /\s/` => `["A", "very", "long", "string"]`<br/>
-`"A very long string" splitBy " "` => `["A", "very", "long", "string"]`
+`"john smith" splitBy /\s/` => `["john", "smith"]`<br/>
+`"john smith" splitBy " "` => `["john", "smith"]`
 * joinBy => `["a","b","c"] joinBy "-"` => `"a-b-c"`
 * trim => `trim "   abc   "` => `"abc"`
 * upper => `upper "abc"` => `"ABC"`
