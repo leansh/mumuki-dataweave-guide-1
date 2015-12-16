@@ -1,5 +1,6 @@
 The way to navigate structures in DW is by using **Selector Expressions**.
 The available selectors are:
+
 * Single-value selector `<object>.<key-name>`
 * Multi-value selector `<object>.*<key-name>`
 * Descendants selector `<object>..<key-name>`

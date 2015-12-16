@@ -12,6 +12,19 @@ For more examples go to [this page](http://userguide.icu-project.org/formatparse
 * period => `|PT9M| => 9 minutes` / `|P1Y| => 1 Year`
 * timeZone => `|-08:00|`
 
+##### Parsing a date string
+This is how you convert a date string to the dataweave internal date representation.
+The result is the date `|1989-07-23|`
+```
+"23 07 1989" as :date {format: "dd MM yyyy"}
+```
+
+##### Converting a date to a string with a format
+The result is the string `"23 Jul 1989"`
+```
+|1989-07-23| as :string {format: "dd MMM yyyy"}
+```
+
 >Given a JSON input like the following, write a script to change the format of the dates from `July 23, 1989` to `1989/07/23`.
 
 ```JSON
