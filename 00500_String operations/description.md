@@ -15,7 +15,7 @@ The available string operations are: <br/>
 
 (for more info [read this](https://docs.mulesoft.com/mule-user-guide/v/3.7/dataweave-reference-documentation#string))
 
->Given a string of comma separated words, write a script that outputs an array with the words that have 5 or more letters.<br/>
+>Given a string of comma separated words, write a script that outputs an array with the words that have more than 5 letters.<br/>
 Use the variable `payload` to reference the given input.
 
 E.g. <br/>
