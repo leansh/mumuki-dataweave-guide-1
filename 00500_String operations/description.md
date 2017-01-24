@@ -19,6 +19,6 @@ The available string operations are: <br/>
 Use the variable `payload` to reference the given input.
 
 E.g. <br/>
-`"foo DataWeave bar rocks" => ["DataWeave", "rocks"]`
+`"foo,DataWeave,bar,rocks!" => ["DataWeave", "rocks!"]`
 
 **NOTE**: When chaining multiple operations you'll probably have to use **parenthesis** to enclose your expressions, depending on the precedence of the operators used.
